@@ -1,0 +1,28 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile GWA-pheno
+  --out snp_200kbwindow
+  --recode AD
+  --snp rs1667394
+  --window 200
+
+Hostname: s05n16
+Working directory: /faststorage/project/populationgenomics/students/jepe/GWAS
+Start time: Thu May 19 15:21:42 2022
+
+Random number seed: 1652966502
+386644 MB RAM detected; reserving 193322 MB for main workspace.
+9 out of 843578 variants loaded from .bim file.
+1202 people (0 males, 0 females, 1202 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to snp_200kbwindow.nosex .
+1202 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1202 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.672768.
+9 variants and 1202 people pass filters and QC.
+Among remaining phenotypes, 595 are cases and 607 are controls.
+--recode AD to snp_200kbwindow.raw ... done.
+
+End time: Thu May 19 15:21:43 2022
