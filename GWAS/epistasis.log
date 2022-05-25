@@ -1,0 +1,39 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-no-sex
+  --assoc perm set-test
+  --bfile GWA-pheno
+  --fast-epistasis set-by-all
+  --out epistasis
+  --set rs1667394.set
+
+Hostname: s21n32
+Working directory: /faststorage/project/populationgenomics/students/jepe/GWAS
+Start time: Tue May 24 14:03:39 2022
+
+Random number seed: 1653393819
+515537 MB RAM detected; reserving 257768 MB for main workspace.
+Allocated 193326 MB successfully, after larger attempt(s) failed.
+843578 variants loaded from .bim file.
+1202 people (0 males, 0 females, 1202 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to epistasis.nosex .
+1202 phenotype values loaded from .fam.
+Using up to 63 threads (change this with --threads).
+Before main variant filters, 1202 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.751176.
+--set: 1 set defined.
+843578 variants and 1202 people pass filters and QC.
+Among remaining phenotypes, 595 are cases and 607 are controls.
+--fast-epistasis: Skipping 2253 monomorphic/non-autosomal sites.
+--fast-epistasis to epistasis.epi.cc ... done.
+841324 valid tests performed, summary written to epistasis.epi.cc.summary .
+Writing C/C --assoc report to epistasis.assoc ... done.
+--assoc/--model set test: Testing 1 set with at least one significant variant.
+LD map constructed.
+1000000 permutations complete.
+Set test results written to epistasis.assoc.set.perm .
+
+End time: Tue May 24 14:03:52 2022

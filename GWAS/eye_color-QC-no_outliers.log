@@ -1,0 +1,56 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile eye_color-QC-no_outliers
+  --indep-pairwise 500kb 5 0.3
+  --out eye_color-QC-no_outliers
+
+Hostname: s21n63
+Working directory: /faststorage/project/populationgenomics/students/jepe/GWAS
+Start time: Fri May  6 10:57:10 2022
+
+Warning: --indep-pairwise step size should be 1 when window size is in kb
+units.
+Random number seed: 1651827430
+515537 MB RAM detected; reserving 257768 MB for main workspace.
+960613 variants loaded from .bim file.
+1214 people (0 males, 0 females, 1214 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to eye_color-QC-no_outliers.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1214 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.73428.
+960613 variants and 1214 people pass filters and QC.
+Note: No phenotypes present.
+Pruned 59368 variants from chromosome 1, leaving 17541.
+Pruned 60954 variants from chromosome 2, leaving 16392.
+Pruned 49356 variants from chromosome 3, leaving 13929.
+Pruned 42514 variants from chromosome 4, leaving 12503.
+Pruned 43281 variants from chromosome 5, leaving 12738.
+Pruned 50271 variants from chromosome 6, leaving 12973.
+Pruned 39539 variants from chromosome 7, leaving 11426.
+Pruned 38642 variants from chromosome 8, leaving 10573.
+Pruned 33131 variants from chromosome 9, leaving 9838.
+Pruned 39007 variants from chromosome 10, leaving 11315.
+Pruned 37539 variants from chromosome 11, leaving 10433.
+Pruned 36488 variants from chromosome 12, leaving 10637.
+Pruned 27891 variants from chromosome 13, leaving 8187.
+Pruned 23552 variants from chromosome 14, leaving 7266.
+Pruned 21636 variants from chromosome 15, leaving 6764.
+Pruned 22725 variants from chromosome 16, leaving 7442.
+Pruned 19734 variants from chromosome 17, leaving 6954.
+Pruned 21134 variants from chromosome 18, leaving 6837.
+Pruned 13093 variants from chromosome 19, leaving 5440.
+Pruned 17798 variants from chromosome 20, leaving 6036.
+Pruned 10013 variants from chromosome 21, leaving 3391.
+Pruned 10321 variants from chromosome 22, leaving 3779.
+Pruned 20303 variants from chromosome 23, leaving 5704.
+Pruned 1753 variants from chromosome 24, leaving 13.
+Pruned 2016 variants from chromosome 26, leaving 443.
+Pruning complete.  742059 of 960613 variants removed.
+Marker lists written to eye_color-QC-no_outliers.prune.in and
+eye_color-QC-no_outliers.prune.out .
+
+End time: Fri May  6 10:57:19 2022
